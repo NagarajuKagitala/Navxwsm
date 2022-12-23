@@ -1,0 +1,17 @@
+﻿{
+	"users": [				
+		{
+			"userId": 20,
+			"userName": "UPLOADUSER",
+			"description": "",
+			"createTimestamp": "2022-04-12T11:31:44",
+			"lastUpdatedTimestamp": "2022-04-12T11:31:44",
+			"locked": false,
+			"disabled": false,
+			"sysGenerated": false,
+			"userGroupIds": [],
+			"userGroupNames": [],
+			"keys": []
+		}
+	]
+}

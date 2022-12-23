@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Trust Management">
+ <test name="Trust Management options">
+  <parameter name="sDriver" value="webdriver.chrome.driver"/>
+  <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+  
+   <parameter name="URL" value=""/>
+   <parameter name="WGSNAME" value="MQM"/>
+   <parameter name="IpAddress" value="127.0.0.1"/>
+   <parameter name="ApplicationName" value="Trust Application"/>
+   <parameter name="UserMask" value="AUTOMATION MASK"/>
+   <parameter name="UpdatedUserMask" value="Trust MASK"/>
+         
+     <classes>
+      <class name="SecurityManager.TrustManagement">
+       
+       <methods>
+       
+        <include name="Login"/> 
+        <include name="CreateTrust"/>
+        <include name="EditTrust"/>
+        <include name="DeleteTrust"/>
+        <include name="Logout"/>
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

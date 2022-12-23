@@ -1,0 +1,18 @@
+﻿{
+	"audits": [
+		{
+			"auditId": 8,
+			"orderValue": 1234567,
+			"auditLevelId": 4,
+			"auditLevelValue": "all",
+			"userGroupId": 1,
+			"userGroupName": "*",
+			"serverGroupId": 1,
+			"serverGroupName": "*",
+			"objectGroupId": 1,
+			"objectGroupName": "*",
+			"featureMask": "UploadMask",
+			"workgroupServer": "MQM"
+		}
+	]
+}

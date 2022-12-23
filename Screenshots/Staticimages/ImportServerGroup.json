@@ -1,0 +1,14 @@
+﻿{
+	"serverGroups": [
+		{
+			"serverGroupId": 5,
+			"serverGroupName": "UploadServerGroup",
+			"description": "",
+			"createTimestamp": "2022-04-12T11:59:23",
+			"lastUpdatedTimestamp": "2022-04-12T11:59:23",
+			"locked": false,
+			"disabled": false,
+			"entries": []
+		}
+	]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Import Data]" guice-stage="DEVELOPMENT">
+  <test name="Import data options(failed)">
+    <parameter name="TrustManagement" value="7"/>
+    <parameter name="ServerGroupManagement" value="4"/>
+    <parameter name="ObjectGroupManagement" value="5"/>
+    <parameter name="ImportedUserGroup" value="UploadGroup"/>
+    <parameter name="ImportedTrust" value="UploadMask"/>
+    <parameter name="sDriverpath" value="F:\\Automation\\ApodWSM\\Drivers\\chromedriver.exe"/>
+    <parameter name="ImportedRole" value="ImportedRole"/>
+    <parameter name="URL" value=""/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="ImportedServerGroup" value="UploadServerGroup"/>
+    <parameter name="RoleManagement" value="3"/>
+    <parameter name="GroupManagement" value="2"/>
+    <parameter name="ImportedObjectGroup" value="UploadObjectGroup"/>
+    <parameter name="AuditManagement" value="6"/>
+    <parameter name="ImportedUserName" value="UPLOADUSER"/>
+    <parameter name="ImportedAudit" value="1234567"/>
+    <classes>
+      <class name="Administration.ImportData">
+        <methods>
+          <include name="UploadRole" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Administration.ImportData -->
+    </classes>
+  </test> <!-- Import data options(failed) -->
+</suite> <!-- Failed suite [Import Data] -->

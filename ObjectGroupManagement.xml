@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Object Group Management">
+ <test name="Object group Management options">
+  <parameter name="sDriver" value="webdriver.chrome.driver"/>
+  <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+  
+   <parameter name="URL" value=""/>
+   <parameter name="Objectgroupname" value="AUTOMATION OBJECT"/>
+   <parameter name="Description" value="Test Edit option for Object group"/>
+         
+     <classes>
+      <class name="SecurityManager.ObjectGroupManagement">
+       
+       <methods>
+       
+        <include name="Login"/> 
+        <include name="CreateObjectGroup"/>
+        <include name="EditObjectGroup"/>
+        <include name="DeleteObjectGroup"/>
+        <include name="Logout"/>
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

@@ -1,0 +1,15 @@
+﻿{
+	"objectGroups": [
+		
+		{
+			"objectGroupId": 5,
+			"objectGroupName": "UploadObjectGroup",
+			"description": "",
+			"createTimestamp": "2022-04-12T12:01:33",
+			"lastUpdatedTimestamp": "2022-04-12T12:01:33",
+			"locked": false,
+			"disabled": false,
+			"entries": []
+		}
+	]
+}

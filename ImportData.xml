@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Import Data">
+ <test name="Import data options">
+  <parameter name="sDriver" value="webdriver.chrome.driver"/>
+  <parameter name="sDriverpath" value="F:\\Automation\\ApodWSM\\Drivers\\chromedriver.exe"/>
+  
+   <parameter name="URL" value=""/>
+   <parameter name="GroupManagement" value="2"/>
+   <parameter name="RoleManagement" value="3"/>
+   <parameter name="ServerGroupManagement" value="4"/>
+   <parameter name="ObjectGroupManagement" value="5"/>
+   <parameter name="AuditManagement" value="6"/>
+   <parameter name="TrustManagement" value="7"/>
+        
+   <parameter name="ImportedUserName" value="UPLOADUSER"/>
+   <parameter name="ImportedUserGroup" value="UploadGroup"/>
+   <parameter name="ImportedRole" value="ImportedRole"/>
+   <parameter name="ImportedServerGroup" value="UploadServerGroup"/>
+   <parameter name="ImportedObjectGroup" value="UploadObjectGroup"/>
+   <parameter name="ImportedAudit" value="1234567"/>
+   <parameter name="ImportedTrust" value="UploadMask"/>
+         
+     <classes>
+      <class name="Administration.ImportData">
+       
+       <methods>
+        <include name="Login"/>
+        <include name="UploadUsers"/>
+        <include name="UploadUserGroups"/>
+        <include name="UploadRole"/> 
+        <include name="UploadServerGroups"/>
+        <include name="UploadObjectGroups"/>
+        <include name="UploadAudits"/>
+        <include name="UploadTrusts"/> 
+        <include name="Logout"/>
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

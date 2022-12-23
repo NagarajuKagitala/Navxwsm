@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [APIRoleManagement]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="APIRoleManagement options(failed)">
+    <parameter name="APIRolename" value="New API Role"/>
+    <parameter name="Groupname" value="Administrators"/>
+    <parameter name="DisplayGroupName" value="Operators"/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+    <parameter name="Clonerole" value="Cloneapirole"/>
+    <parameter name="Editedrole" value="UpdatedAPIRole"/>
+    <classes>
+      <class name="Administration.APIRoleManagement">
+        <methods>
+          <include name="createAPIRole" invocation-numbers="0"/>
+          <include name="DisplayGroups" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="AddHideRoleFromDisplayedAPIRole" invocation-numbers="0"/>
+          <include name="Logout"/>
+          <include name="EditAPIRole" invocation-numbers="0"/>
+          <include name="CloneAPIRole" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="HideIcon" invocation-numbers="0"/>
+          <include name="DeleteAPIRole" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Administration.APIRoleManagement -->
+    </classes>
+  </test> <!-- APIRoleManagement options(failed) -->
+</suite> <!-- Failed suite [APIRoleManagement] -->

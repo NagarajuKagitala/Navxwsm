@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Audit Management]" guice-stage="DEVELOPMENT">
+  <test name="Audit Management options(failed)">
+    <parameter name="WGSNAME" value="MQM"/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="sDriverpath" value="F:\\Automation\\ApodWSM\\Drivers\\chromedriver.exe"/>
+    <parameter name="UpdatedActionMask" value="AUDIT MASK"/>
+    <parameter name="Auditname" value="123456"/>
+    <parameter name="ActionMask" value="AUTOMATION MASK"/>
+    <parameter name="URL" value=""/>
+    <classes>
+      <class name="SecurityManager.AuditManagement">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CreateAudit"/>
+          <include name="beforeTest"/>
+          <include name="EditAudit" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SecurityManager.AuditManagement -->
+    </classes>
+  </test> <!-- Audit Management options(failed) -->
+</suite> <!-- Failed suite [Audit Management] -->

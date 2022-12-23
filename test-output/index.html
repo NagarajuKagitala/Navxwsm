@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-APIRoleManagement" class="navigator-link">
+              <span class="suite-name border-passed">APIRoleManagement</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-APIRoleManagement" class="navigator-link ">
+                    <span>E:\Automation\ApodWSM\APIRoleManagement.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-APIRoleManagement" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-APIRoleManagement" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-APIRoleManagement" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-APIRoleManagement" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-APIRoleManagement" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-APIRoleManagement" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-APIRoleManagement" class="hide-methods passed suite-APIRoleManagement"> (hide)</a> <!-- hide-methods passed suite-APIRoleManagement -->
+                      <a href="#" panel-name="suite-APIRoleManagement" class="show-methods passed suite-APIRoleManagement"> (show)</a> <!-- show-methods passed suite-APIRoleManagement -->
+                    </span>
+                    <div class="method-list-content passed suite-APIRoleManagement">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="AddHideRoleFromDisplayedAPIRole(New API Role, org.testng.TestRunner@437da279)">AddHideRoleFromDisplayedAPIRole(New API Role, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="CloneAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)">CloneAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="DeleteAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)">DeleteAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="DisplayGroups(New API Role, Operators, org.testng.TestRunner@437da279)">DisplayGroups(New API Role, Operators, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="EditAPIRole(New API Role, UpdatedAPIRole, org.testng.TestRunner@437da279)">EditAPIRole(New API Role, UpdatedAPIRole, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="HideIcon(New API Role, org.testng.TestRunner@437da279)">HideIcon(New API Role, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="Login(webdriver.chrome.driver, Drivers\\chromedriver.exe, org.testng.TestRunner@437da279)">Login(webdriver.chrome.driver, Drivers\\chromedriver.exe, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIRoleManagement" title="Administration.APIRoleManagement" class="method navigator-link" hash-for-method="createAPIRole(New API Role, Administrators, org.testng.TestRunner@437da279)">createAPIRole(New API Role, Administrators, org.testng.TestRunner@437da279)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-APIRoleManagement -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-APIRoleManagement" class="panel APIRoleManagement">
+          <div class="suite-APIRoleManagement-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Administration.APIRoleManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddHideRoleFromDisplayedAPIRole(New API Role, org.testng.TestRunner@437da279)">
+                  </a> <!-- AddHideRoleFromDisplayedAPIRole(New API Role, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">AddHideRoleFromDisplayedAPIRole</span>
+                  <span class="parameters">(New API Role, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloneAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)">
+                  </a> <!-- CloneAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">CloneAPIRole</span>
+                  <span class="parameters">(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)">
+                  </a> <!-- DeleteAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">DeleteAPIRole</span>
+                  <span class="parameters">(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DisplayGroups(New API Role, Operators, org.testng.TestRunner@437da279)">
+                  </a> <!-- DisplayGroups(New API Role, Operators, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">DisplayGroups</span>
+                  <span class="parameters">(New API Role, Operators, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditAPIRole(New API Role, UpdatedAPIRole, org.testng.TestRunner@437da279)">
+                  </a> <!-- EditAPIRole(New API Role, UpdatedAPIRole, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">EditAPIRole</span>
+                  <span class="parameters">(New API Role, UpdatedAPIRole, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HideIcon(New API Role, org.testng.TestRunner@437da279)">
+                  </a> <!-- HideIcon(New API Role, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">HideIcon</span>
+                  <span class="parameters">(New API Role, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(webdriver.chrome.driver, Drivers\\chromedriver.exe, org.testng.TestRunner@437da279)">
+                  </a> <!-- Login(webdriver.chrome.driver, Drivers\\chromedriver.exe, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(webdriver.chrome.driver, Drivers\\chromedriver.exe, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAPIRole(New API Role, Administrators, org.testng.TestRunner@437da279)">
+                  </a> <!-- createAPIRole(New API Role, Administrators, org.testng.TestRunner@437da279) -->
+                  <span class="method-name">createAPIRole</span>
+                  <span class="parameters">(New API Role, Administrators, org.testng.TestRunner@437da279)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-APIRoleManagement-class-passed -->
+        </div> <!-- panel APIRoleManagement -->
+        <div panel-name="test-xml-APIRoleManagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation\ApodWSM\APIRoleManagement.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;APIRoleManagement&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;APIRoleManagement options&quot;&gt;
+    &lt;parameter name=&quot;APIRolename&quot; value=&quot;New API Role&quot;/&gt;
+    &lt;parameter name=&quot;Groupname&quot; value=&quot;Administrators&quot;/&gt;
+    &lt;parameter name=&quot;DisplayGroupName&quot; value=&quot;Operators&quot;/&gt;
+    &lt;parameter name=&quot;sDriver&quot; value=&quot;webdriver.chrome.driver&quot;/&gt;
+    &lt;parameter name=&quot;sDriverpath&quot; value=&quot;Drivers\\chromedriver.exe&quot;/&gt;
+    &lt;parameter name=&quot;Clonerole&quot; value=&quot;Cloneapirole&quot;/&gt;
+    &lt;parameter name=&quot;Editedrole&quot; value=&quot;UpdatedAPIRole&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Administration.APIRoleManagement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;createAPIRole&quot;/&gt;
+          &lt;include name=&quot;HideIcon&quot;/&gt;
+          &lt;include name=&quot;AddHideRoleFromDisplayedAPIRole&quot;/&gt;
+          &lt;include name=&quot;DisplayGroups&quot;/&gt;
+          &lt;include name=&quot;EditAPIRole&quot;/&gt;
+          &lt;include name=&quot;CloneAPIRole&quot;/&gt;
+          &lt;include name=&quot;DeleteAPIRole&quot;/&gt;
+          &lt;include name=&quot;Logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Administration.APIRoleManagement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- APIRoleManagement options --&gt;
+&lt;/suite&gt; &lt;!-- APIRoleManagement --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-APIRoleManagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for APIRoleManagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">APIRoleManagement options (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-APIRoleManagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for APIRoleManagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-APIRoleManagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for APIRoleManagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_APIRoleManagement');
+function tableData_APIRoleManagement() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createAPIRole')
+data.setCell(0, 2, 'Administration.APIRoleManagement')
+data.setCell(0, 3, 46924);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DisplayGroups')
+data.setCell(1, 2, 'Administration.APIRoleManagement')
+data.setCell(1, 3, 28885);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DeleteAPIRole')
+data.setCell(2, 2, 'Administration.APIRoleManagement')
+data.setCell(2, 3, 22754);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EditAPIRole')
+data.setCell(3, 2, 'Administration.APIRoleManagement')
+data.setCell(3, 3, 16632);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddHideRoleFromDisplayedAPIRole')
+data.setCell(4, 2, 'Administration.APIRoleManagement')
+data.setCell(4, 3, 15639);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CloneAPIRole')
+data.setCell(5, 2, 'Administration.APIRoleManagement')
+data.setCell(5, 3, 15634);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Login')
+data.setCell(6, 2, 'Administration.APIRoleManagement')
+data.setCell(6, 3, 13384);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'HideIcon')
+data.setCell(7, 2, 'Administration.APIRoleManagement')
+data.setCell(7, 3, 4392);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Logout')
+data.setCell(8, 2, 'Administration.APIRoleManagement')
+data.setCell(8, 3, 4243);
+window.suiteTableData['APIRoleManagement']= { tableData: data, tableDiv: 'times-div-APIRoleManagement'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-APIRoleManagement">
+              </div> <!-- times-div-APIRoleManagement -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-APIRoleManagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for APIRoleManagement</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">HideIcon(New API Role, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/HideIcon.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createAPIRole(New API Role, Administrators, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/createAPIRole.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DisplayGroups(New API Role, Operators, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/DisplayGroups.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login(webdriver.chrome.driver, Drivers\\chromedriver.exe, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/Login.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddHideRoleFromDisplayedAPIRole(New API Role, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/AddHideRoleFromDisplayedAPIRole.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CloneAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/CloneAPIRole.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EditAPIRole(New API Role, UpdatedAPIRole, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/EditAPIRole.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DeleteAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><img src=" E:\Automation\ApodWSM/Screenshots/ScreenshotsSuccess/DeleteAPIRole.png" alt="""/" /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-APIRoleManagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-APIRoleManagement" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Administration.APIRoleManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Login(webdriver.chrome.driver, Drivers\\chromedriver.exe, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Login status=SUCCESS method=APIRoleManagement.Login(java.lang.String, java.lang.Str...)</span>
+                <span class="method-start">13418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createAPIRole(New API Role, Administrators, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">13620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createAPIRole status=SUCCESS method=APIRoleManagement.createAPIRole(java.lang.Strin...)</span>
+                <span class="method-start">60545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HideIcon(New API Role, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">60653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=HideIcon status=SUCCESS method=APIRoleManagement.HideIcon(java.lang.String, org.tes...)</span>
+                <span class="method-start">65046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AddHideRoleFromDisplayedAPIRole(New API Role, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">65191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AddHideRoleFromDisplayedAPIRole status=SUCCESS method=APIRoleManagement.AddHideRole...)</span>
+                <span class="method-start">80832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DisplayGroups(New API Role, Operators, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">80956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=DisplayGroups status=SUCCESS method=APIRoleManagement.DisplayGroups(java.lang.Strin...)</span>
+                <span class="method-start">109842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">EditAPIRole(New API Role, UpdatedAPIRole, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">109933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EditAPIRole status=SUCCESS method=APIRoleManagement.EditAPIRole(java.lang.String, j...)</span>
+                <span class="method-start">126566 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CloneAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">126663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CloneAPIRole status=SUCCESS method=APIRoleManagement.CloneAPIRole(java.lang.String,...)</span>
+                <span class="method-start">142299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DeleteAPIRole(UpdatedAPIRole, Cloneapirole, org.testng.TestRunner@437da279)</span>
+                <span class="method-start">142402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=DeleteAPIRole status=SUCCESS method=APIRoleManagement.DeleteAPIRole(java.lang.Strin...)</span>
+                <span class="method-start">165157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">165244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Logout status=SUCCESS method=APIRoleManagement.Logout()[pri:8, instance:Administrat...)</span>
+                <span class="method-start">169488 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

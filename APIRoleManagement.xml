@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="APIRoleManagement">
+ <test name="APIRoleManagement options">
+    
+     <parameter name="sDriver" value="webdriver.chrome.driver"/>
+     <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+     <parameter name="APIRolename" value="New API Role"/>
+     <parameter name="Groupname" value="Administrators"/>
+     <parameter name="DisplayGroupName" value="Operators"/>
+     <parameter name="Editedrole" value="UpdatedAPIRole"/>
+     <parameter name="Clonerole" value="Cloneapirole"/>
+     
+     
+     
+         
+     <classes>
+      <class name="Administration.APIRoleManagement">
+       
+       <methods>
+        <include name="Login"/>
+        <include name="CreateAPIRole"/>
+        <include name="HideIcon"/>
+        <include name="AddHideRoleFromDisplayedAPIRole"/>
+        <include name="DisplayGroups"/>
+        <include name="EditAPIRole"/>
+        <include name="CloneAPIRole"/>
+        <include name="DeleteAPIRole"/>
+        <include name="Logout"/>
+       
+       
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

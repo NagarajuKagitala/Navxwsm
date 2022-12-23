@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Role Management]" guice-stage="DEVELOPMENT">
+  <test name="Role Management options(failed)">
+    <parameter name="Rolename" value="AUTOMATION"/>
+    <parameter name="Description" value="Test Edit option for user group"/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="sDriverpath" value="F:\\Automation\\ApodWSM\\Drivers\\chromedriver.exe"/>
+    <parameter name="NewRolename" value="NEWROLE"/>
+    <parameter name="URL" value=""/>
+    <classes>
+      <class name="SecurityManager.RoleManagement">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="DeleteRole" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SecurityManager.RoleManagement -->
+    </classes>
+  </test> <!-- Role Management options(failed) -->
+</suite> <!-- Failed suite [Role Management] -->

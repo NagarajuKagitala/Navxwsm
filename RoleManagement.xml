@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Role Management">
+ <test name="Role Management options">
+  <parameter name="sDriver" value="webdriver.chrome.driver"/>
+  <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+  
+   <parameter name="URL" value=""/>
+   <parameter name="Rolename" value="AUTOMATION"/>
+   <parameter name="NewRolename" value="NEWROLE"/>
+   <parameter name="Description" value="Test Edit option for user group"/>
+         
+     <classes>
+      <class name="SecurityManager.RoleManagement">
+       
+       <methods>
+       
+        <include name="Login"/> 
+        <include name="CreateRole"/> 
+        <include name="EditRole"/>
+        <include name="CloneRole"/>
+        <include name="DeleteRole"/> 
+        <include name="Logout"/>
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

@@ -1,0 +1,1346 @@
+﻿[
+	{
+		"pcfCommand": 1,
+		"featureCode": "MQCMD_CHANGE_Q_MGR"
+	},
+	{
+		"pcfCommand": 2,
+		"featureCode": "MQCMD_INQUIRE_Q_MGR"
+	},
+	{
+		"pcfCommand": 3,
+		"featureCode": "MQCMD_CHANGE_PROCESS"
+	},
+	{
+		"pcfCommand": 4,
+		"featureCode": "MQCMD_COPY_PROCESS"
+	},
+	{
+		"pcfCommand": 5,
+		"featureCode": "MQCMD_CREATE_PROCESS"
+	},
+	{
+		"pcfCommand": 6,
+		"featureCode": "MQCMD_DELETE_PROCESS"
+	},
+	{
+		"pcfCommand": 7,
+		"featureCode": "MQCMD_INQUIRE_PROCESS"
+	},
+	{
+		"pcfCommand": 8,
+		"featureCode": "MQCMD_CHANGE_Q"
+	},
+	{
+		"pcfCommand": 9,
+		"featureCode": "MQCMD_CLEAR_Q"
+	},
+	{
+		"pcfCommand": 10,
+		"featureCode": "MQCMD_COPY_Q"
+	},
+	{
+		"pcfCommand": 11,
+		"featureCode": "MQCMD_CREATE_Q"
+	},
+	{
+		"pcfCommand": 12,
+		"featureCode": "MQCMD_DELETE_Q"
+	},
+	{
+		"pcfCommand": 13,
+		"featureCode": "MQCMD_INQUIRE_Q"
+	},
+	{
+		"pcfCommand": 17,
+		"featureCode": "MQCMD_RESET_Q_STATS"
+	},
+	{
+		"pcfCommand": 18,
+		"featureCode": "MQCMD_INQUIRE_Q_NAMES"
+	},
+	{
+		"pcfCommand": 10003,
+		"featureCode": "EXCMD_START_Q_MGR"
+	},
+	{
+		"pcfCommand": 10004,
+		"featureCode": "EXCMD_STOP_Q_MGR"
+	},
+	{
+		"pcfCommand": 10005,
+		"featureCode": "EXCMD_OPEN_EVENT"
+	},
+	{
+		"pcfCommand": 10006,
+		"featureCode": "EXCMD_CLOSE_EVENT"
+	},
+	{
+		"pcfCommand": 10007,
+		"featureCode": "EXCMD_INQUIRE_Q_MGR_NAMES"
+	},
+	{
+		"pcfCommand": 10011,
+		"featureCode": "EXCMD_CHANGE_Q_MGR_STAT"
+	},
+	{
+		"pcfCommand": 10012,
+		"featureCode": "EXCMD_CREATE_Q_MGR"
+	},
+	{
+		"pcfCommand": 10013,
+		"featureCode": "EXCMD_DELETE_Q_MGR"
+	},
+	{
+		"pcfCommand": 10014,
+		"featureCode": "EXCMD_MQSC_SCRIPT"
+	},
+	{
+		"pcfCommand": 10016,
+		"featureCode": "EXCMD_LOCATE_OBJECT"
+	},
+	{
+		"pcfCommand": 10017,
+		"featureCode": "EXCMD_INQUIRE_Q_RUNTIME"
+	},
+	{
+		"pcfCommand": 10018,
+		"featureCode": "EXCMD_INQUIRE_SESSION"
+	},
+	{
+		"pcfCommand": 10019,
+		"featureCode": "EXCMD_DELETE_SESSION"
+	},
+	{
+		"pcfCommand": 10020,
+		"featureCode": "EXCMD_INQUIRE_CLUSQMGR_NAMES"
+	},
+	{
+		"pcfCommand": 10101,
+		"featureCode": "EXCMD_INQUIRE_MANAGER"
+	},
+	{
+		"pcfCommand": 10102,
+		"featureCode": "EXCMD_CHANGE_MANAGER"
+	},
+	{
+		"pcfCommand": 10105,
+		"featureCode": "EXCMD_START_MANAGER"
+	},
+	{
+		"pcfCommand": 10106,
+		"featureCode": "EXCMD_STOP_MANAGER"
+	},
+	{
+		"pcfCommand": 10107,
+		"featureCode": "EXCMD_CHANGE_MANAGER_STAT"
+	},
+	{
+		"pcfCommand": 10108,
+		"featureCode": "EXCMD_INQUIRE_ACTIVE_MANAGER"
+	},
+	{
+		"pcfCommand": 10110,
+		"featureCode": "EXCMD_SHUTDOWN_MANAGER"
+	},
+	{
+		"pcfCommand": 10120,
+		"featureCode": "EXCMD_INQUIRE_MQNODE_NAMES"
+	},
+	{
+		"pcfCommand": 10121,
+		"featureCode": "EXCMD_INQUIRE_MQNODE"
+	},
+	{
+		"pcfCommand": 10122,
+		"featureCode": "EXCMD_CHANGE_MQNODE"
+	},
+	{
+		"pcfCommand": 10123,
+		"featureCode": "EXCMD_DELETE_MQNODE"
+	},
+	{
+		"pcfCommand": 10124,
+		"featureCode": "EXCMD_CREATE_MQNODE"
+	},
+	{
+		"pcfCommand": 10125,
+		"featureCode": "EXCMD_START_MQNODE"
+	},
+	{
+		"pcfCommand": 10126,
+		"featureCode": "EXCMD_STOP_MQNODE"
+	},
+	{
+		"pcfCommand": 10127,
+		"featureCode": "EXCMD_CHANGE_MQNODE_STAT"
+	},
+	{
+		"pcfCommand": 10128,
+		"featureCode": "EXCMD_REGISTER_MQNODE"
+	},
+	{
+		"pcfCommand": 10129,
+		"featureCode": "EXCMD_MANAGE_MQNODE"
+	},
+	{
+		"pcfCommand": 10130,
+		"featureCode": "EXCMD_UNMANAGE_MQNODE"
+	},
+	{
+		"pcfCommand": 10160,
+		"featureCode": "EXCMD_INQUIRE_Q_MGR_EVENT"
+	},
+	{
+		"pcfCommand": 10161,
+		"featureCode": "EXCMD_DELETE_Q_MGR_EVENT"
+	},
+	{
+		"pcfCommand": 10170,
+		"featureCode": "EXCMD_INQUIRE_CHANNEL_EVENT"
+	},
+	{
+		"pcfCommand": 10171,
+		"featureCode": "EXCMD_DELETE_CHANNEL_EVENT"
+	},
+	{
+		"pcfCommand": 10180,
+		"featureCode": "EXCMD_INQUIRE_MANAGER_EVENT"
+	},
+	{
+		"pcfCommand": 10181,
+		"featureCode": "EXCMD_DELETE_MANAGER_EVENT"
+	},
+	{
+		"pcfCommand": 10190,
+		"featureCode": "EXCMD_INQUIRE_PERFM_EVENT"
+	},
+	{
+		"pcfCommand": 10191,
+		"featureCode": "EXCMD_DELETE_PERFM_EVENT"
+	},
+	{
+		"pcfCommand": 10200,
+		"featureCode": "EXCMD_INQUIRE_ALTER_EVENT"
+	},
+	{
+		"pcfCommand": 10201,
+		"featureCode": "EXCMD_DELETE_ALTER_EVENT"
+	},
+	{
+		"pcfCommand": 10202,
+		"featureCode": "EXCMD_INQUIRE_CONFIG_EVENT"
+	},
+	{
+		"pcfCommand": 10203,
+		"featureCode": "EXCMD_DELETE_CONFIG_EVENT"
+	},
+	{
+		"pcfCommand": 10210,
+		"featureCode": "EXCMD_INQUIRE_COMMAND_EVENT"
+	},
+	{
+		"pcfCommand": 10211,
+		"featureCode": "EXCMD_DELETE_COMMAND_EVENT"
+	},
+	{
+		"pcfCommand": 10212,
+		"featureCode": "EXCMD_INQUIRE_SCHEDULER_EVENT"
+	},
+	{
+		"pcfCommand": 10213,
+		"featureCode": "EXCMD_DELETE_SCHEDULER_EVENT"
+	},
+	{
+		"pcfCommand": 10162,
+		"featureCode": "EXCMD_INQUIRE_LOGGER_EVENT"
+	},
+	{
+		"pcfCommand": 10163,
+		"featureCode": "EXCMD_DELETE_LOGGER_EVENT"
+	},
+	{
+		"pcfCommand": 10164,
+		"featureCode": "EXCMD_INQUIRE_BRIDGE_EVENT"
+	},
+	{
+		"pcfCommand": 10165,
+		"featureCode": "EXCMD_DELETE_BRIDGE_EVENT"
+	},
+	{
+		"pcfCommand": 10205,
+		"featureCode": "EXCMD_INQUIRE_TEXT_FILE"
+	},
+	{
+		"pcfCommand": 10206,
+		"featureCode": "EXCMD_CREATE_TEXT_FILE"
+	},
+	{
+		"pcfCommand": 10207,
+		"featureCode": "EXCMD_INQUIRE_LOG_NAMES"
+	},
+	{
+		"pcfCommand": 10300,
+		"featureCode": "EXCMD_MG_BROWSE"
+	},
+	{
+		"pcfCommand": 10301,
+		"featureCode": "EXCMD_MG_NEW"
+	},
+	{
+		"pcfCommand": 10302,
+		"featureCode": "EXCMD_MG_MOVE"
+	},
+	{
+		"pcfCommand": 10303,
+		"featureCode": "EXCMD_MG_DELETE"
+	},
+	{
+		"pcfCommand": 10304,
+		"featureCode": "EXCMD_MG_COPY"
+	},
+	{
+		"pcfCommand": 10305,
+		"featureCode": "EXCMD_MG_FIND"
+	},
+	{
+		"pcfCommand": 10306,
+		"featureCode": "EXCMD_MG_MODIFY"
+	},
+	{
+		"pcfCommand": 10307,
+		"featureCode": "EXCMD_MG_BROWSE_HDR"
+	},
+	{
+		"pcfCommand": 10311,
+		"featureCode": "EXCMD_MG_SAVE"
+	},
+	{
+		"pcfCommand": 10312,
+		"featureCode": "EXCMD_MG_UNLOAD"
+	},
+	{
+		"pcfCommand": 10313,
+		"featureCode": "EXCMD_MG_REQUEUE"
+	},
+	{
+		"pcfCommand": 10314,
+		"featureCode": "EXCMD_MG_LOAD"
+	},
+	{
+		"pcfCommand": 10315,
+		"featureCode": "EXCMD_MG_REROUTE"
+	},
+	{
+		"pcfCommand": 10317,
+		"featureCode": "EXCMD_MG_DIR"
+	},
+	{
+		"pcfCommand": 10318,
+		"featureCode": "EXCMD_MG_CH_DIR"
+	},
+	{
+		"pcfCommand": 10998,
+		"featureCode": "EXCMD_START_PROCESS"
+	},
+	{
+		"pcfCommand": 10999,
+		"featureCode": "EXCMD_TEST_Q_MGR"
+	},
+	{
+		"pcfCommand": 11000,
+		"featureCode": "EXCMD_MQ_DISCOVER"
+	},
+	{
+		"pcfCommand": 11002,
+		"featureCode": "EXCMD_EXECUTE_SHELL_CMD"
+	},
+	{
+		"pcfCommand": 19,
+		"featureCode": "MQCMD_INQUIRE_PROCESS_NAMES"
+	},
+	{
+		"pcfCommand": 20,
+		"featureCode": "MQCMD_INQUIRE_CHANNEL_NAMES"
+	},
+	{
+		"pcfCommand": 21,
+		"featureCode": "MQCMD_CHANGE_CHANNEL"
+	},
+	{
+		"pcfCommand": 22,
+		"featureCode": "MQCMD_COPY_CHANNEL"
+	},
+	{
+		"pcfCommand": 23,
+		"featureCode": "MQCMD_CREATE_CHANNEL"
+	},
+	{
+		"pcfCommand": 24,
+		"featureCode": "MQCMD_DELETE_CHANNEL"
+	},
+	{
+		"pcfCommand": 25,
+		"featureCode": "MQCMD_INQUIRE_CHANNEL"
+	},
+	{
+		"pcfCommand": 26,
+		"featureCode": "MQCMD_PING_CHANNEL"
+	},
+	{
+		"pcfCommand": 27,
+		"featureCode": "MQCMD_RESET_CHANNEL"
+	},
+	{
+		"pcfCommand": 28,
+		"featureCode": "MQCMD_START_CHANNEL"
+	},
+	{
+		"pcfCommand": 29,
+		"featureCode": "MQCMD_STOP_CHANNEL"
+	},
+	{
+		"pcfCommand": 30,
+		"featureCode": "MQCMD_START_CHANNEL_INIT"
+	},
+	{
+		"pcfCommand": 31,
+		"featureCode": "MQCMD_START_CHANNEL_LISTENER"
+	},
+	{
+		"pcfCommand": 32,
+		"featureCode": "MQCMD_CHANGE_NAMELIST"
+	},
+	{
+		"pcfCommand": 33,
+		"featureCode": "MQCMD_COPY_NAMELIST"
+	},
+	{
+		"pcfCommand": 34,
+		"featureCode": "MQCMD_CREATE_NAMELIST"
+	},
+	{
+		"pcfCommand": 35,
+		"featureCode": "MQCMD_DELETE_NAMELIST"
+	},
+	{
+		"pcfCommand": 36,
+		"featureCode": "MQCMD_INQUIRE_NAMELIST"
+	},
+	{
+		"pcfCommand": 37,
+		"featureCode": "MQCMD_INQUIRE_NAMELIST_NAMES"
+	},
+	{
+		"pcfCommand": 38,
+		"featureCode": "MQCMD_ESCAPE"
+	},
+	{
+		"pcfCommand": 39,
+		"featureCode": "MQCMD_RESOLVE_CHANNEL"
+	},
+	{
+		"pcfCommand": 40,
+		"featureCode": "MQCMD_PING_Q_MGR"
+	},
+	{
+		"pcfCommand": 41,
+		"featureCode": "MQCMD_INQUIRE_Q_STATUS"
+	},
+	{
+		"pcfCommand": 42,
+		"featureCode": "MQCMD_INQUIRE_CHANNEL_STATUS"
+	},
+	{
+		"pcfCommand": 43,
+		"featureCode": "MQCMD_CONFIG_EVENT"
+	},
+	{
+		"pcfCommand": 44,
+		"featureCode": "MQCMD_Q_MGR_EVENT"
+	},
+	{
+		"pcfCommand": 45,
+		"featureCode": "MQCMD_PERFM_EVENT"
+	},
+	{
+		"pcfCommand": 46,
+		"featureCode": "MQCMD_CHANNEL_EVENT"
+	},
+	{
+		"pcfCommand": 70,
+		"featureCode": "MQCMD_INQUIRE_CLUSTER_Q_MGR"
+	},
+	{
+		"pcfCommand": 71,
+		"featureCode": "MQCMD_RESUME_Q_MGR_CLUSTER"
+	},
+	{
+		"pcfCommand": 72,
+		"featureCode": "MQCMD_SUSPEND_Q_MGR_CLUSTER"
+	},
+	{
+		"pcfCommand": 73,
+		"featureCode": "MQCMD_REFRESH_CLUSTER"
+	},
+	{
+		"pcfCommand": 74,
+		"featureCode": "MQCMD_RESET_CLUSTER"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "join_cluster"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "leave_cluster"
+	},
+	{
+		"pcfCommand": 78,
+		"featureCode": "MQCMD_REFRESH_SECURITY"
+	},
+	{
+		"pcfCommand": 79,
+		"featureCode": "MQCMD_CHANGE_AUTH_INFO"
+	},
+	{
+		"pcfCommand": 80,
+		"featureCode": "MQCMD_COPY_AUTH_INFO"
+	},
+	{
+		"pcfCommand": 81,
+		"featureCode": "MQCMD_CREATE_AUTH_INFO"
+	},
+	{
+		"pcfCommand": 82,
+		"featureCode": "MQCMD_DELETE_AUTH_INFO"
+	},
+	{
+		"pcfCommand": 83,
+		"featureCode": "MQCMD_INQUIRE_AUTH_INFO"
+	},
+	{
+		"pcfCommand": 84,
+		"featureCode": "MQCMD_INQUIRE_AUTH_INFO_NAMES"
+	},
+	{
+		"pcfCommand": 8001,
+		"featureCode": "EXCMD_ALTER_EVENT"
+	},
+	{
+		"pcfCommand": 8002,
+		"featureCode": "EXCMD_MANAGER_EVENT"
+	},
+	{
+		"pcfCommand": 8003,
+		"featureCode": "EXCMD_STATE_EVENT"
+	},
+	{
+		"pcfCommand": 93,
+		"featureCode": "MQCMD_CHANGE_LISTENER"
+	},
+	{
+		"pcfCommand": 94,
+		"featureCode": "MQCMD_COPY_LISTENER"
+	},
+	{
+		"pcfCommand": 95,
+		"featureCode": "MQCMD_CREATE_LISTENER"
+	},
+	{
+		"pcfCommand": 96,
+		"featureCode": "MQCMD_DELETE_LISTENER"
+	},
+	{
+		"pcfCommand": 97,
+		"featureCode": "MQCMD_INQUIRE_LISTENER"
+	},
+	{
+		"pcfCommand": 98,
+		"featureCode": "MQCMD_INQUIRE_LISTENER_STATUS"
+	},
+	{
+		"pcfCommand": 142,
+		"featureCode": "MQCMD_STOP_CHANNEL_LISTENER"
+	},
+	{
+		"pcfCommand": 106,
+		"featureCode": "MQCMD_CREATE_BUFFER_POOL"
+	},
+	{
+		"pcfCommand": 157,
+		"featureCode": "MQCMD_DELETE_BUFFER_POOL"
+	},
+	{
+		"pcfCommand": 159,
+		"featureCode": "MQCMD_CHANGE_BUFFER_POOL"
+	},
+	{
+		"pcfCommand": 107,
+		"featureCode": "MQCMD_CREATE_PAGE_SET"
+	},
+	{
+		"pcfCommand": 158,
+		"featureCode": "MQCMD_DELETE_PAGE_SET"
+	},
+	{
+		"pcfCommand": 160,
+		"featureCode": "MQCMD_CHANGE_PAGE_SET"
+	},
+	{
+		"pcfCommand": 102,
+		"featureCode": "MQCMD_CHANGE_STG_CLASS"
+	},
+	{
+		"pcfCommand": 148,
+		"featureCode": "MQCMD_INQUIRE_STG_CLASS_NAMES"
+	},
+	{
+		"pcfCommand": 109,
+		"featureCode": "MQCMD_CREATE_STG_CLASS"
+	},
+	{
+		"pcfCommand": 111,
+		"featureCode": "MQCMD_COPY_STG_CLASS"
+	},
+	{
+		"pcfCommand": 113,
+		"featureCode": "MQCMD_DELETE_STG_CLASS"
+	},
+	{
+		"pcfCommand": 122,
+		"featureCode": "MQCMD_INQUIRE_STG_CLASS"
+	},
+	{
+		"pcfCommand": 149,
+		"featureCode": "MQCMD_CHANGE_SERVICE"
+	},
+	{
+		"pcfCommand": 150,
+		"featureCode": "MQCMD_COPY_SERVICE"
+	},
+	{
+		"pcfCommand": 151,
+		"featureCode": "MQCMD_CREATE_SERVICE"
+	},
+	{
+		"pcfCommand": 152,
+		"featureCode": "MQCMD_DELETE_SERVICE"
+	},
+	{
+		"pcfCommand": 153,
+		"featureCode": "MQCMD_INQUIRE_SERVICE"
+	},
+	{
+		"pcfCommand": 154,
+		"featureCode": "MQCMD_INQUIRE_SERVICE_STATUS"
+	},
+	{
+		"pcfCommand": 155,
+		"featureCode": "MQCMD_START_SERVICE"
+	},
+	{
+		"pcfCommand": 156,
+		"featureCode": "MQCMD_STOP_SERVICE"
+	},
+	{
+		"pcfCommand": 170,
+		"featureCode": "MQCMD_CHANGE_TOPIC"
+	},
+	{
+		"pcfCommand": 171,
+		"featureCode": "MQCMD_COPY_TOPIC"
+	},
+	{
+		"pcfCommand": 172,
+		"featureCode": "MQCMD_CREATE_TOPIC"
+	},
+	{
+		"pcfCommand": 173,
+		"featureCode": "MQCMD_DELETE_TOPIC"
+	},
+	{
+		"pcfCommand": 174,
+		"featureCode": "MQCMD_INQUIRE_TOPIC"
+	},
+	{
+		"pcfCommand": 175,
+		"featureCode": "MQCMD_INQUIRE_TOPIC_NAMES"
+	},
+	{
+		"pcfCommand": 30044,
+		"featureCode": "EXCMD_PURGE_TOPIC"
+	},
+	{
+		"pcfCommand": 30045,
+		"featureCode": "EXCMD_PURGE_Q "
+	},
+	{
+		"pcfCommand": 176,
+		"featureCode": "MQCMD_INQUIRE_SUBSCRIPTION"
+	},
+	{
+		"pcfCommand": 177,
+		"featureCode": "MQCMD_CREATE_SUBSCRIPTION"
+	},
+	{
+		"pcfCommand": 178,
+		"featureCode": "MQCMD_CHANGE_SUBSCRIPTION"
+	},
+	{
+		"pcfCommand": 179,
+		"featureCode": "MQCMD_DELETE_SUBSCRIPTION"
+	},
+	{
+		"pcfCommand": 181,
+		"featureCode": "MQCMD_COPY_SUBSCRIPTION"
+	},
+	{
+		"pcfCommand": 182,
+		"featureCode": "MQCMD_INQUIRE_SUB_STATUS"
+	},
+	{
+		"pcfCommand": 183,
+		"featureCode": "MQCMD_INQUIRE_TOPIC_STATUS"
+	},
+	{
+		"pcfCommand": 184,
+		"featureCode": "MQCMD_CLEAR_TOPIC_STRING"
+	},
+	{
+		"pcfCommand": 185,
+		"featureCode": "MQCMD_INQUIRE_PUBSUB_STATUS"
+	},
+	{
+		"pcfCommand": 10021,
+		"featureCode": "EXCMD_INQUIRE_LISTENER_NAMES"
+	},
+	{
+		"pcfCommand": 10022,
+		"featureCode": "EXCMD_INQUIRE_SERVICE_NAMES"
+	},
+	{
+		"pcfCommand": 10024,
+		"featureCode": "EXCMD_INQUIRE_SUBSCRIPTION_NAMES"
+	},
+	{
+		"pcfCommand": 10423,
+		"featureCode": "EXCMD_CREATE_RMTQMGR"
+	},
+	{
+		"pcfCommand": 10421,
+		"featureCode": "EXCMD_INQUIRE_RMTQMGR_NAMES"
+	},
+	{
+		"pcfCommand": 10422,
+		"featureCode": "EXCMD_INQUIRE_RMTQMGR"
+	},
+	{
+		"pcfCommand": 10424,
+		"featureCode": "EXCMD_DELETE_RMTQMGR"
+	},
+	{
+		"pcfCommand": 10425,
+		"featureCode": "EXCMD_CHANGE_RMTQMGR"
+	},
+	{
+		"pcfCommand": 30423,
+		"featureCode": "EXCMD_CREATE_RMTEMS"
+	},
+	{
+		"pcfCommand": 30421,
+		"featureCode": "EXCMD_INQUIRE_RMTEMS_NAMES"
+	},
+	{
+		"pcfCommand": 30422,
+		"featureCode": "EXCMD_INQUIRE_RMTEMS"
+	},
+	{
+		"pcfCommand": 30424,
+		"featureCode": "EXCMD_DELETE_RMTEMS"
+	},
+	{
+		"pcfCommand": 30425,
+		"featureCode": "EXCMD_CHANGE_RMTEMS"
+	},
+	{
+		"pcfCommand": 10701,
+		"featureCode": "EXCMD_INQUIRE_METRICS"
+	},
+	{
+		"pcfCommand": 10208,
+		"featureCode": "EXCMD_RELOAD_PERMITS"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_clntconns"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_mqtt"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_attributes"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_events"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_actions"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_status"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_topology"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "force_attributes_refresh"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "customize_message_columns"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "customize_browse_options"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "customize_load_messages_options"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "customize_save_messages_options"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "customize_status_filters"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "customize_queue_status_columns"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "customize_channel_status_columns"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "configure_connections"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_administration"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "extended_copy"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_favorites"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_favorites"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "include_shared_favorites"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "create_shared_favorites"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "delete_all_messages"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "move_all_messages"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "copy_all_messages"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_searches"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "perform_searches"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "edit_searches"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "delete_searches"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "save_searches"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "create_shared_searches"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "include_shared_searches"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "display_authorizations"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "set_authorizations"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "create_qm_cluster"
+	},
+	{
+		"pcfCommand": 10400,
+		"featureCode": "EXCMD_INQUIRE_ACCT_MQI"
+	},
+	{
+		"pcfCommand": 10401,
+		"featureCode": "EXCMD_DELETE_ACCT_MQI"
+	},
+	{
+		"pcfCommand": 10402,
+		"featureCode": "EXCMD_INQUIRE_ACCT_Q"
+	},
+	{
+		"pcfCommand": 10403,
+		"featureCode": "EXCMD_DELETE_ACCT_Q"
+	},
+	{
+		"pcfCommand": 10410,
+		"featureCode": "EXCMD_INQUIRE_STAT_MQI"
+	},
+	{
+		"pcfCommand": 10411,
+		"featureCode": "EXCMD_DELETE_STAT_MQI"
+	},
+	{
+		"pcfCommand": 10412,
+		"featureCode": "EXCMD_INQUIRE_STAT_Q"
+	},
+	{
+		"pcfCommand": 10413,
+		"featureCode": "EXCMD_DELETE_STAT_Q"
+	},
+	{
+		"pcfCommand": 10414,
+		"featureCode": "EXCMD_INQUIRE_STAT_CHANNEL"
+	},
+	{
+		"pcfCommand": 10415,
+		"featureCode": "EXCMD_DELETE_STAT_CHANNEL"
+	},
+	{
+		"pcfCommand": 164,
+		"featureCode": "MQCMD_STATISTICS_MQI"
+	},
+	{
+		"pcfCommand": 165,
+		"featureCode": "MQCMD_STATISTICS_Q"
+	},
+	{
+		"pcfCommand": 166,
+		"featureCode": "MQCMD_STATISTICS_CHANNEL"
+	},
+	{
+		"pcfCommand": 167,
+		"featureCode": "MQCMD_ACCOUNTING_MQI"
+	},
+	{
+		"pcfCommand": 168,
+		"featureCode": "MQCMD_ACCOUNTING_Q"
+	},
+	{
+		"pcfCommand": 11219,
+		"featureCode": "EXCMD_PUBLISH_TOPIC"
+	},
+	{
+		"pcfCommand": 87,
+		"featureCode": "MQCMD_INQUIRE_AUTH_RECS"
+	},
+	{
+		"pcfCommand": 88,
+		"featureCode": "MQCMD_INQUIRE_ENTITY_AUTH"
+	},
+	{
+		"pcfCommand": 89,
+		"featureCode": "MQCMD_DELETE_AUTH_REC"
+	},
+	{
+		"pcfCommand": 90,
+		"featureCode": "MQCMD_SET_AUTH_REC"
+	},
+	{
+		"pcfCommand": 10654,
+		"featureCode": "EXCMD_INQUIRE_JOB"
+	},
+	{
+		"pcfCommand": 10655,
+		"featureCode": "EXCMD_INQUIRE_JOB_LIST"
+	},
+	{
+		"pcfCommand": 10656,
+		"featureCode": "EXCMD_CANCEL_JOB"
+	},
+	{
+		"pcfCommand": 10657,
+		"featureCode": "EXCMD_SCHEDULE_JOB"
+	},
+	{
+		"pcfCommand": 10658,
+		"featureCode": "EXCMD_INQUIRE_JOB_SERVICE_NOW_DATA"
+	},
+	{
+		"pcfCommand": 10659,
+		"featureCode": "EXCMD_APPROVE_JOB"
+	},
+	{
+		"pcfCommand": 204,
+		"featureCode": "MQCMD_INQUIRE_CHLAUTH_RECS"
+	},
+	{
+		"pcfCommand": 161,
+		"featureCode": "MQCMD_INQUIRE_Q_MGR_STATUS"
+	},
+	{
+		"pcfCommand": 203,
+		"featureCode": "MQCMD_SET_CHLAUTH_REC"
+	},
+	{
+		"pcfCommand": 10029,
+		"featureCode": "EXCMD_INQUIRE_CHLAUTH_RECS_PROFILES"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "ADD_REMOVE_DEFAULT_CONNECTION"
+	},
+	{
+		"pcfCommand": 30021,
+		"featureCode": "EXCMD_CREATE_EMS_GROUP"
+	},
+	{
+		"pcfCommand": 30022,
+		"featureCode": "EXCMD_CHANGE_EMS_GROUP"
+	},
+	{
+		"pcfCommand": 30023,
+		"featureCode": "EXCMD_DELETE_EMS_GROUP"
+	},
+	{
+		"pcfCommand": 30024,
+		"featureCode": "EXCMD_INQUIRE_EMS_GROUP"
+	},
+	{
+		"pcfCommand": 30025,
+		"featureCode": "EXCMD_INQUIRE_EMS_GROUP_NAMES"
+	},
+	{
+		"pcfCommand": 30027,
+		"featureCode": "EXCMD_CREATE_EMS_USER"
+	},
+	{
+		"pcfCommand": 30028,
+		"featureCode": "EXCMD_CHANGE_EMS_USER"
+	},
+	{
+		"pcfCommand": 30029,
+		"featureCode": "EXCMD_DELETE_EMS_USER"
+	},
+	{
+		"pcfCommand": 30030,
+		"featureCode": "EXCMD_INQUIRE_EMS_USER"
+	},
+	{
+		"pcfCommand": 30031,
+		"featureCode": "EXCMD_INQUIRE_EMS_USER_NAMES"
+	},
+	{
+		"pcfCommand": 30032,
+		"featureCode": "EXCMD_INQUIRE_EMS_ACL_DESTINATION"
+	},
+	{
+		"pcfCommand": 30033,
+		"featureCode": "EXCMD_INQUIRE_EMS_ACL_PRINCIPAL"
+	},
+	{
+		"pcfCommand": 30034,
+		"featureCode": "EXCMD_INQUIRE_EMS_ACL_ENTRIES"
+	},
+	{
+		"pcfCommand": 30035,
+		"featureCode": "EXCMD_CHANGE_EMS_ACL_ENTRY"
+	},
+	{
+		"pcfCommand": 80001,
+		"featureCode": "MQPERMS_SHOW_ALL_GROUPS_FOR_SHARED_DASH"
+	},
+	{
+		"pcfCommand": 30036,
+		"featureCode": "EXCMD_INQUIRE_EMS_SERVER"
+	},
+	{
+		"pcfCommand": 30037,
+		"featureCode": "EXCMD_INQUIRE_EMS_SERVER_NAMES"
+	},
+	{
+		"pcfCommand": 40016,
+		"featureCode": "EXCMD_INQUIRE_KAFKA_CLUSTER_NAMES"
+	},
+	{
+		"pcfCommand": 40017,
+		"featureCode": "EXCMD_INQUIRE_KAFKA_CLUSTER"
+	},
+	{
+		"pcfCommand": 40025,
+		"featureCode": "EXCMD_INQUIRE_KAFKA_ACL_ALL"
+	},
+	{
+		"pcfCommand": 40026,
+		"featureCode": "EXCMD_CREATE_KAFKA_ACL"
+	},
+	{
+		"pcfCommand": 40027,
+		"featureCode": "EXCMD_DELETE_KAFKA_ACL"
+	},
+	{
+		"pcfCommand": 40401,
+		"featureCode": "EXCMD_INQUIRE_KAFKA_RMT_NAMES"
+	},
+	{
+		"pcfCommand": 40402,
+		"featureCode": "EXCMD_INQUIRE_KAFKA_RMT"
+	},
+	{
+		"pcfCommand": 40403,
+		"featureCode": "EXCMD_CREATE_KAFKA_RMT"
+	},
+	{
+		"pcfCommand": 40404,
+		"featureCode": "EXCMD_DELETE_KAFKA_RMT"
+	},
+	{
+		"pcfCommand": 40405,
+		"featureCode": "EXCMD_CHANGE_KAFKA_RMT"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "MQPERMS_USE_DASHBOARD_AS_TEMPLATE"
+	},
+	{
+		"pcfCommand": 10030,
+		"featureCode": "EXCMD_CHANGE_Q_EX"
+	},
+	{
+		"pcfCommand": 70002,
+		"featureCode": "EXCMD_INQUIRE_ACE_RMT_NAMES"
+	},
+	{
+		"pcfCommand": 70003,
+		"featureCode": "EXCMD_INQUIRE_ACE_RMT"
+	},
+	{
+		"pcfCommand": 70004,
+		"featureCode": "EXCMD_CREATE_ACE_RMT"
+	},
+	{
+		"pcfCommand": 70005,
+		"featureCode": "EXCMD_DELETE_ACE_RMT"
+	},
+	{
+		"pcfCommand": 70006,
+		"featureCode": "EXCMD_CHANGE_ACE_RMT"
+	},
+	{
+		"pcfCommand": 72001,
+		"featureCode": "EXCMD_INQUIRE_IIB_NODE_NAMES"
+	},
+	{
+		"pcfCommand": 72002,
+		"featureCode": "EXCMD_INQUIRE_IIB_NODE"
+	},
+	{
+		"pcfCommand": 72003,
+		"featureCode": "EXCMD_INQUIRE_IIB_NODE_ADMIN_LOG"
+	},
+	{
+		"pcfCommand": 85,
+		"featureCode": "MQCMD_INQUIRE_CONNECTION"
+	},
+	{
+		"pcfCommand": 86,
+		"featureCode": "MQCMD_STOP_CONNECTION"
+	},
+	{
+		"pcfCommand": 11400,
+		"featureCode": "EXCMD_COMPARE_MANAGER"
+	},
+	{
+		"pcfCommand": 10032,
+		"featureCode": "EXCMD_ESCAPE_VIEW"
+	},
+	{
+		"pcfCommand": 10033,
+		"featureCode": "EXCMD_MQSC_SCRIPT_VIEW"
+	},
+	{
+		"pcfCommand": 20945,
+		"featureCode": "EXCMD_SET_CUSTOMPROPS"
+	},
+	{
+		"pcfCommand": 20946,
+		"featureCode": "EXCMD_INQUIRE_CUSTOMPROPS_NAMES"
+	},
+	{
+		"pcfCommand": 30046,
+		"featureCode": "EXCMD_INQUIRE_Q_STATS"
+	},
+	{
+		"pcfCommand": 30047,
+		"featureCode": "EXCMD_INQUIRE_TOPIC_STATS"
+	},
+	{
+		"pcfCommand": 29998,
+		"featureCode": "projects_access_all"
+	},
+	{
+		"pcfCommand": 190,
+		"featureCode": "MQCMD_CREATE_COMM_INFO"
+	},
+	{
+		"pcfCommand": 192,
+		"featureCode": "MQCMD_CHANGE_COMM_INFO"
+	},
+	{
+		"pcfCommand": 194,
+		"featureCode": "MQCMD_DELETE_COMM_INFO"
+	},
+	{
+		"pcfCommand": 191,
+		"featureCode": "MQCMD_INQUIRE_COMM_INFO"
+	},
+	{
+		"pcfCommand": 193,
+		"featureCode": "MQCMD_COPY_COMM_INFO"
+	},
+	{
+		"pcfCommand": 10031,
+		"featureCode": "EXCMD_INQUIRE_COMM_INFO_NAMES"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_environment_level"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "show_samlsso_configs"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_dash_to_tags"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_dash_tags_data"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_global_attr_filters"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_private_attr_filters"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_shared_attr_filters"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_global_msg_criteria"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_private_msg_criteria"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "manage_shared_msg_criteria"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "allow_data_export"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "allow_data_import"
+	},
+	{
+		"pcfCommand": 0,
+		"featureCode": "allow_connection_creation_on_import"
+	},
+	{
+		"pcfCommand": 80002,
+		"featureCode": "EXCMD_INQUIRE_SOLACE_RMT_NAMES"
+	},
+	{
+		"pcfCommand": 80003,
+		"featureCode": "EXCMD_INQUIRE_SOLACE_RMT"
+	},
+	{
+		"pcfCommand": 80004,
+		"featureCode": "EXCMD_CREATE_SOLACE_RMT"
+	},
+	{
+		"pcfCommand": 80005,
+		"featureCode": "EXCMD_DELETE_SOLACE_RMT"
+	},
+	{
+		"pcfCommand": 80006,
+		"featureCode": "EXCMD_CHANGE_SOLACE_RMT"
+	},
+	{
+		"pcfCommand": 80007,
+		"featureCode": "EXCMD_INQUIRE_SOLACE_BROKER_NAMES"
+	},
+	{
+		"pcfCommand": 80008,
+		"featureCode": "EXCMD_INQUIRE_SOLACE_BROKER"
+	},
+	{
+		"pcfCommand": 80009,
+		"featureCode": "EXCMD_INQUIRE_SOLACE_BROKER_ADVANCED"
+	},
+	{
+		"pcfCommand": 80010,
+		"featureCode": "EXCMD_INQUIRE_SOLACE_BROKER_STATUS"
+	},
+	{
+		"pcfCommand": 80011,
+		"featureCode": "EXCMD_INQUIRE_SOLACE_BROKER_STATISTICS"
+	},
+	{
+		"pcfCommand": 80012,
+		"featureCode": "EXCMD_CHANGE_SOLACE_BROKER"
+	}
+]

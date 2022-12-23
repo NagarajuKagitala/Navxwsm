@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Audit Management">
+ <test name="Audit Management options">
+  <parameter name="sDriver" value="webdriver.chrome.driver"/>
+  <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+  
+   <parameter name="URL" value=""/>
+   <parameter name="Auditname" value="123456"/>
+   <parameter name="ActionMask" value="AUTOMATION MASK"/>
+   <parameter name="WGSNAME" value="MQM"/>
+   <parameter name="UpdatedActionMask" value="AUDIT MASK"/>
+         
+     <classes>
+      <class name="SecurityManager.AuditManagement">
+       
+       <methods>
+       
+        <include name="Login"/> 
+        <include name="CreateAudit"/>
+        <include name="EditAudit"/>
+        <include name="DeleteAudit"/>
+        <include name="Logout"/>
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User Management]" guice-stage="DEVELOPMENT">
+  <test name="User Management options(failed)">
+    <parameter name="Description" value="Test Edit option for user"/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="Username" value="AUTOMATION USER"/>
+    <parameter name="sDriverpath" value="F:\\Automation\\ApodWSM\\Drivers\\chromedriver.exe"/>
+    <parameter name="URL" value=""/>
+    <classes>
+      <class name="SecurityManager.UserManagement">
+        <methods>
+          <include name="DeleteUser"/>
+          <include name="CreateUser" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="EditUser"/>
+        </methods>
+      </class> <!-- SecurityManager.UserManagement -->
+    </classes>
+  </test> <!-- User Management options(failed) -->
+</suite> <!-- Failed suite [User Management] -->

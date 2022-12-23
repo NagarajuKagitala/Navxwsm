@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Trust Management]" guice-stage="DEVELOPMENT">
+  <test name="Trust Management options(failed)">
+    <parameter name="WGSNAME" value="MQM"/>
+    <parameter name="ApplicationName" value="Trust Application"/>
+    <parameter name="UserMask" value="AUTOMATION MASK"/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="sDriverpath" value="F:\\Automation\\ApodWSM\\Drivers\\chromedriver.exe"/>
+    <parameter name="UpdatedUserMask" value="Trust MASK"/>
+    <parameter name="IpAddress" value="127.0.0.1"/>
+    <parameter name="URL" value=""/>
+    <classes>
+      <class name="SecurityManager.TrustManagement">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="CreateTrust" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="DeleteTrust"/>
+          <include name="EditTrust"/>
+        </methods>
+      </class> <!-- SecurityManager.TrustManagement -->
+    </classes>
+  </test> <!-- Trust Management options(failed) -->
+</suite> <!-- Failed suite [Trust Management] -->

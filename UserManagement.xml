@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="User Management">
+ <test name="User Management options">
+  <parameter name="sDriver" value="webdriver.chrome.driver"/>
+  <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+  
+   <parameter name="URL" value=""/>
+   <parameter name="Username" value="AUTOMATION USER"/>
+   <parameter name="Description" value="Test Edit option for user"/>
+         
+     <classes>
+      <class name="SecurityManager.UserManagement">
+       
+       <methods>
+       
+        <include name="Login"/> 
+        <include name="CreateUser"/>
+        <include name="EditUser"/>
+        <include name="DeleteUser"/>
+        <include name="Logout"/>
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

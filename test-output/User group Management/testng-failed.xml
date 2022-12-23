@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User group Management]" guice-stage="DEVELOPMENT">
+  <test name="User group Management options(failed)">
+    <parameter name="Groupname" value="AUTOMATION GROUP"/>
+    <parameter name="Description" value="Test Edit option for user group"/>
+    <parameter name="sDriver" value="webdriver.chrome.driver"/>
+    <parameter name="sDriverpath" value="F:\\Automation\\ApodWSM\\Drivers\\chromedriver.exe"/>
+    <parameter name="URL" value=""/>
+    <classes>
+      <class name="SecurityManager.UserGroupManagement">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- SecurityManager.UserGroupManagement -->
+    </classes>
+  </test> <!-- User group Management options(failed) -->
+</suite> <!-- Failed suite [User group Management] -->

@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="User group Management">
+ <test name="User group Management options">
+  <parameter name="sDriver" value="webdriver.chrome.driver"/>
+  <parameter name="sDriverpath" value="Drivers\\chromedriver.exe"/>
+  
+   <parameter name="URL" value=""/>
+   <parameter name="Groupname" value="AUTOMATION GROUP"/>
+   <parameter name="Description" value="Test Edit option for user group"/>
+         
+     <classes>
+      <class name="SecurityManager.UserGroupManagement">
+       
+       <methods>
+       
+        <include name="Login"/> 
+        <include name="CreateUserGroup"/>
+        <include name="EditUserGroup"/>
+        <include name="DeleteUserGroup"/>
+        <include name="Logout"/>
+        
+       </methods>
+       
+       </class>
+     </classes>
+ </test>
+</suite>

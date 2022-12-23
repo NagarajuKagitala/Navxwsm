@@ -1,0 +1,19 @@
+﻿{
+	"userGroups": [
+		{
+			"userGroupId": 27,
+			"userGroupName": "UploadGroup",
+			"effectiveName": "",
+			"description": "",
+			"createTimestamp": "2022-04-12T11:44:34",
+			"lastUpdatedTimestamp": "2022-04-12T11:44:34",
+			"locked": false,
+			"disabled": false,
+			"principleName": "*",
+			"keys": [],
+			"userIds": [],
+			"userNames": []
+		}
+		
+	]
+}
