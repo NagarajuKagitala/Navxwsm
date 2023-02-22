@@ -142,7 +142,7 @@ public class ImportData
 		{
 			//Click on settings
 			driver.findElement(By.xpath("//div[2]/div[5]")).click();
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 			
 			//Select top menu
 			driver.findElement(By.id("top-m-type")).click();
